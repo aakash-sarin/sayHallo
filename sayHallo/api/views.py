@@ -7,7 +7,7 @@ from rest_framework import status
 def hallo(request):
     try:
         name = request.GET.get('name', None)
-        if name is None: 
+        if not name or name.strip() == "": 
             return Response(
                 {"error": "Missing 'name' parameter"},
                 status=status.HTTP_400_BAD_REQUEST
