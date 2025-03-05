@@ -1,8 +1,8 @@
 =================================
-Django sayHallo API
+sayHallo
 =================================
 
-The projected was created to demostrate a GET endpoint in Django that returns "Hallo".
+The projected was created to demostrate a GET endpoint in Django that returns "Hallo {name}!".
 
 Project Setup
 ------------------------------
